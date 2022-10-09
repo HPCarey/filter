@@ -21,6 +21,13 @@ const people = [
   },
 ];
 
+const oldEnough = people.filter(person => person.age >=21);
+console.log(oldEnough);
+
+const paul = people.filter(person => person.name === "Paul");
+const paulFirstOnly = people.filter(person => person.name === "Paul")[0];
+console.log(paul);
+console.log(paulFirstOnly);
 
 // Complex Filtering
 const students = [
